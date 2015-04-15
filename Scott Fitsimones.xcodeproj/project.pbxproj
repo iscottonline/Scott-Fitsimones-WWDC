@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20703ED1ADDEB06007979FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20703EC1ADDEB06007979FF /* AppDelegate.swift */; };
+		D20703EF1ADDEB06007979FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20703EE1ADDEB06007979FF /* ViewController.swift */; };
+		D20703F11ADDEB06007979FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20703F01ADDEB06007979FF /* Images.xcassets */; };
+		D20703F41ADDEB06007979FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20703F21ADDEB06007979FF /* Main.storyboard */; };
+		D20704001ADDEB06007979FF /* Scott_FitsimonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20703FF1ADDEB06007979FF /* Scott_FitsimonesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D20703FA1ADDEB06007979FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D20703DF1ADDEB06007979FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D20703E61ADDEB06007979FF;
+			remoteInfo = "Scott Fitsimones";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D20703E71ADDEB06007979FF /* Scott Fitsimones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scott Fitsimones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20703EB1ADDEB06007979FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20703EC1ADDEB06007979FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D20703EE1ADDEB06007979FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D20703F01ADDEB06007979FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D20703F31ADDEB06007979FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D20703F91ADDEB06007979FF /* Scott FitsimonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scott FitsimonesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20703FE1ADDEB06007979FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20703FF1ADDEB06007979FF /* Scott_FitsimonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scott_FitsimonesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D20703E41ADDEB06007979FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20703F61ADDEB06007979FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D20703DE1ADDEB06007979FF = {
+			isa = PBXGroup;
+			children = (
+				D20703E91ADDEB06007979FF /* Scott Fitsimones */,
+				D20703FC1ADDEB06007979FF /* Scott FitsimonesTests */,
+				D20703E81ADDEB06007979FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D20703E81ADDEB06007979FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D20703E71ADDEB06007979FF /* Scott Fitsimones.app */,
+				D20703F91ADDEB06007979FF /* Scott FitsimonesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D20703E91ADDEB06007979FF /* Scott Fitsimones */ = {
+			isa = PBXGroup;
+			children = (
+				D20703EC1ADDEB06007979FF /* AppDelegate.swift */,
+				D20703EE1ADDEB06007979FF /* ViewController.swift */,
+				D20703F01ADDEB06007979FF /* Images.xcassets */,
+				D20703F21ADDEB06007979FF /* Main.storyboard */,
+				D20703EA1ADDEB06007979FF /* Supporting Files */,
+			);
+			path = "Scott Fitsimones";
+			sourceTree = "<group>";
+		};
+		D20703EA1ADDEB06007979FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D20703EB1ADDEB06007979FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D20703FC1ADDEB06007979FF /* Scott FitsimonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D20703FF1ADDEB06007979FF /* Scott_FitsimonesTests.swift */,
+				D20703FD1ADDEB06007979FF /* Supporting Files */,
+			);
+			path = "Scott FitsimonesTests";
+			sourceTree = "<group>";
+		};
+		D20703FD1ADDEB06007979FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D20703FE1ADDEB06007979FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D20703E61ADDEB06007979FF /* Scott Fitsimones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20704031ADDEB06007979FF /* Build configuration list for PBXNativeTarget "Scott Fitsimones" */;
+			buildPhases = (
+				D20703E31ADDEB06007979FF /* Sources */,
+				D20703E41ADDEB06007979FF /* Frameworks */,
+				D20703E51ADDEB06007979FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scott Fitsimones";
+			productName = "Scott Fitsimones";
+			productReference = D20703E71ADDEB06007979FF /* Scott Fitsimones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D20703F81ADDEB06007979FF /* Scott FitsimonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20704061ADDEB06007979FF /* Build configuration list for PBXNativeTarget "Scott FitsimonesTests" */;
+			buildPhases = (
+				D20703F51ADDEB06007979FF /* Sources */,
+				D20703F61ADDEB06007979FF /* Frameworks */,
+				D20703F71ADDEB06007979FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D20703FB1ADDEB06007979FF /* PBXTargetDependency */,
+			);
+			name = "Scott FitsimonesTests";
+			productName = "Scott FitsimonesTests";
+			productReference = D20703F91ADDEB06007979FF /* Scott FitsimonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D20703DF1ADDEB06007979FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bolt Visual";
+				TargetAttributes = {
+					D20703E61ADDEB06007979FF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D20703F81ADDEB06007979FF = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D20703E61ADDEB06007979FF;
+					};
+				};
+			};
+			buildConfigurationList = D20703E21ADDEB06007979FF /* Build configuration list for PBXProject "Scott Fitsimones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D20703DE1ADDEB06007979FF;
+			productRefGroup = D20703E81ADDEB06007979FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D20703E61ADDEB06007979FF /* Scott Fitsimones */,
+				D20703F81ADDEB06007979FF /* Scott FitsimonesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D20703E51ADDEB06007979FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20703F11ADDEB06007979FF /* Images.xcassets in Resources */,
+				D20703F41ADDEB06007979FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20703F71ADDEB06007979FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D20703E31ADDEB06007979FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20703EF1ADDEB06007979FF /* ViewController.swift in Sources */,
+				D20703ED1ADDEB06007979FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20703F51ADDEB06007979FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20704001ADDEB06007979FF /* Scott_FitsimonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D20703FB1ADDEB06007979FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D20703E61ADDEB06007979FF /* Scott Fitsimones */;
+			targetProxy = D20703FA1ADDEB06007979FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D20703F21ADDEB06007979FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20703F31ADDEB06007979FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D20704011ADDEB06007979FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D20704021ADDEB06007979FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D20704041ADDEB06007979FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Scott Fitsimones/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D20704051ADDEB06007979FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Scott Fitsimones/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D20704071ADDEB06007979FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scott FitsimonesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scott Fitsimones.app/Contents/MacOS/Scott Fitsimones";
+			};
+			name = Debug;
+		};
+		D20704081ADDEB06007979FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scott FitsimonesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scott Fitsimones.app/Contents/MacOS/Scott Fitsimones";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D20703E21ADDEB06007979FF /* Build configuration list for PBXProject "Scott Fitsimones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20704011ADDEB06007979FF /* Debug */,
+				D20704021ADDEB06007979FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20704031ADDEB06007979FF /* Build configuration list for PBXNativeTarget "Scott Fitsimones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20704041ADDEB06007979FF /* Debug */,
+				D20704051ADDEB06007979FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D20704061ADDEB06007979FF /* Build configuration list for PBXNativeTarget "Scott FitsimonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20704071ADDEB06007979FF /* Debug */,
+				D20704081ADDEB06007979FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D20703DF1ADDEB06007979FF /* Project object */;
+}
