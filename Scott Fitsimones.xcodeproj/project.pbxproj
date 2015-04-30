@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D204DF9D1AE1DC2700DF6DBA /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204DF9C1AE1DC2700DF6DBA /* CoolTextView.swift */; };
 		D20703ED1ADDEB06007979FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20703EC1ADDEB06007979FF /* AppDelegate.swift */; };
 		D20703EF1ADDEB06007979FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20703EE1ADDEB06007979FF /* ViewController.swift */; };
 		D20703F11ADDEB06007979FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20703F01ADDEB06007979FF /* Images.xcassets */; };
 		D20703F41ADDEB06007979FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20703F21ADDEB06007979FF /* Main.storyboard */; };
 		D20704001ADDEB06007979FF /* Scott_FitsimonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20703FF1ADDEB06007979FF /* Scott_FitsimonesTests.swift */; };
+		D25A35AD1AE08DF300C94336 /* ScottWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A35AC1AE08DF300C94336 /* ScottWindowController.swift */; };
+		D2D3524E1AE491DC0047D2FF /* move13.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D3524D1AE491DC0047D2FF /* move13.png */; };
+		D2D352501AE498F80047D2FF /* libmathCommon.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D3524F1AE498F80047D2FF /* libmathCommon.A.dylib */; };
+		D2E2B2151AE30D3C0017AA77 /* LayeredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2B2141AE30D3C0017AA77 /* LayeredView.swift */; };
+		D2E2B2191AE317D00017AA77 /* FunTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2B2181AE317D00017AA77 /* FunTableView.swift */; };
+		D2E2B21B1AE45C000017AA77 /* wwdc logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E2B21A1AE45C000017AA77 /* wwdc logo.png */; };
+		D2E2B21D1AE45E6B0017AA77 /* StartupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E2B21C1AE45E6B0017AA77 /* StartupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D204DF9C1AE1DC2700DF6DBA /* CoolTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoolTextView.swift; path = ../CoolTextView.swift; sourceTree = "<group>"; };
 		D20703E71ADDEB06007979FF /* Scott Fitsimones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scott Fitsimones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20703EB1ADDEB06007979FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D20703EC1ADDEB06007979FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +43,13 @@
 		D20703F91ADDEB06007979FF /* Scott FitsimonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scott FitsimonesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20703FE1ADDEB06007979FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D20703FF1ADDEB06007979FF /* Scott_FitsimonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scott_FitsimonesTests.swift; sourceTree = "<group>"; };
+		D25A35AC1AE08DF300C94336 /* ScottWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScottWindowController.swift; sourceTree = "<group>"; };
+		D2D3524D1AE491DC0047D2FF /* move13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move13.png; sourceTree = "<group>"; };
+		D2D3524F1AE498F80047D2FF /* libmathCommon.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmathCommon.A.dylib; path = usr/lib/system/libmathCommon.A.dylib; sourceTree = SDKROOT; };
+		D2E2B2141AE30D3C0017AA77 /* LayeredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayeredView.swift; sourceTree = "<group>"; };
+		D2E2B2181AE317D00017AA77 /* FunTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunTableView.swift; sourceTree = "<group>"; };
+		D2E2B21A1AE45C000017AA77 /* wwdc logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wwdc logo.png"; path = "../../../../Downloads/wwdc logo.png"; sourceTree = "<group>"; };
+		D2E2B21C1AE45E6B0017AA77 /* StartupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D352501AE498F80047D2FF /* libmathCommon.A.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +74,7 @@
 		D20703DE1ADDEB06007979FF = {
 			isa = PBXGroup;
 			children = (
+				D2D3524F1AE498F80047D2FF /* libmathCommon.A.dylib */,
 				D20703E91ADDEB06007979FF /* Scott Fitsimones */,
 				D20703FC1ADDEB06007979FF /* Scott FitsimonesTests */,
 				D20703E81ADDEB06007979FF /* Products */,
@@ -76,9 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				D20703EC1ADDEB06007979FF /* AppDelegate.swift */,
+				D25A35AC1AE08DF300C94336 /* ScottWindowController.swift */,
 				D20703EE1ADDEB06007979FF /* ViewController.swift */,
+				D2E2B21C1AE45E6B0017AA77 /* StartupView.swift */,
 				D20703F01ADDEB06007979FF /* Images.xcassets */,
 				D20703F21ADDEB06007979FF /* Main.storyboard */,
+				D2E2B2141AE30D3C0017AA77 /* LayeredView.swift */,
+				D2E2B2181AE317D00017AA77 /* FunTableView.swift */,
+				D204DF9C1AE1DC2700DF6DBA /* CoolTextView.swift */,
 				D20703EA1ADDEB06007979FF /* Supporting Files */,
 			);
 			path = "Scott Fitsimones";
@@ -88,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				D20703EB1ADDEB06007979FF /* Info.plist */,
+				D2E2B21A1AE45C000017AA77 /* wwdc logo.png */,
+				D2D3524D1AE491DC0047D2FF /* move13.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,8 +214,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D3524E1AE491DC0047D2FF /* move13.png in Resources */,
 				D20703F11ADDEB06007979FF /* Images.xcassets in Resources */,
 				D20703F41ADDEB06007979FF /* Main.storyboard in Resources */,
+				D2E2B21B1AE45C000017AA77 /* wwdc logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +235,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E2B2151AE30D3C0017AA77 /* LayeredView.swift in Sources */,
 				D20703EF1ADDEB06007979FF /* ViewController.swift in Sources */,
 				D20703ED1ADDEB06007979FF /* AppDelegate.swift in Sources */,
+				D2E2B21D1AE45E6B0017AA77 /* StartupView.swift in Sources */,
+				D204DF9D1AE1DC2700DF6DBA /* CoolTextView.swift in Sources */,
+				D2E2B2191AE317D00017AA77 /* FunTableView.swift in Sources */,
+				D25A35AD1AE08DF300C94336 /* ScottWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +362,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Scott Fitsimones/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -341,6 +378,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Scott Fitsimones/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -400,6 +442,7 @@
 				D20704051ADDEB06007979FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D20704061ADDEB06007979FF /* Build configuration list for PBXNativeTarget "Scott FitsimonesTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +451,7 @@
 				D20704081ADDEB06007979FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
